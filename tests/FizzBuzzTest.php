@@ -41,7 +41,7 @@ class FizzBuzzTest extends TestCase {
 
         $result = $this->FizzBuzz->execute($input);
 
-        $this->assertEquals('Fizz', $result);
+        $this->assertEquals(FizzBuzz::FIZZ, $result);
     }
 
     public function testShouldReturnBuzzWhenInputIs5()
@@ -50,7 +50,7 @@ class FizzBuzzTest extends TestCase {
 
         $result = $this->FizzBuzz->execute($input);
 
-        $this->assertEquals('Buzz',$result);
+        $this->assertEquals(FizzBuzz::BUZZ,$result);
     }
 
     public function testShouldReturnFizzWhenInputIs6()
@@ -59,7 +59,7 @@ class FizzBuzzTest extends TestCase {
 
         $result = $this->FizzBuzz->execute($input);
 
-        $this->assertEquals('Fizz', $result);
+        $this->assertEquals(FizzBuzz::FIZZ, $result);
     }
 
     public function testShouldReturnFizzBuzzWhenInputIs15()
@@ -68,7 +68,7 @@ class FizzBuzzTest extends TestCase {
 
         $result = $this->FizzBuzz->execute($input);
 
-        $this->assertEquals('FizzBuzz', $result);
+        $this->assertEquals(FizzBuzz::FIZZBUZZ, $result);
     }
 
     public function testShouldReturnRangeWhenInputIsRange()

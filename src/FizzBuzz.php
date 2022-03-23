@@ -14,10 +14,10 @@ class FizzBuzz {
             return $this::FIZZBUZZ;
         }
         if($this->isDivisibleBy3($input)) {
-            return 'Fizz';
+            return $this::FIZZ;
         }
         if ($this->isDivisibleBy5($input)) {
-            return 'Buzz';
+            return $this::BUZZ;
         }
         return $input;
     }

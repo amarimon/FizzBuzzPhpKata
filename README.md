@@ -7,6 +7,25 @@ Kata from : https://kata-log.rocks/fizz-buzz-kata
 3. For the multiples of five print Buzz instead of the number
 4. For numbers which are multiples of both three and five print FizzBuzz instead of the number
 
+TDD Rules
+1. Do not write any production code without a failing test first
+2. Write only enough test code as is sufficient enough to fail
+3. Only implement a minimal code that makes the failing test pass.
+
+Red Green Refactor cycle
+```html
+<span style="color: red">Write test</span>
+<span style="color: red">Test fails</span>
+
+<span style="color: green">Write code to make test pass</span>
+<span style="color: green">Code passes test</span>
+
+<span style="color: blue">Can I improve the working code?</span>
+<span style="color: blue">Clean code, and test must pass</span>
+
+Start again!
+```
+
 Written in PHP 8.1
 
 Install dependencies : 

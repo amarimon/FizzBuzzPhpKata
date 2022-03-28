@@ -13,18 +13,20 @@ TDD Rules
 3. Only implement a minimal code that makes the failing test pass.
 
 Red Green Refactor cycle
-```html
-<span style="color: red">Write test</span>
-<span style="color: red">Test fails</span>
 
-<span style="color: green">Write code to make test pass</span>
-<span style="color: green">Code passes test</span>
+Red : 
+Write test
+Test fails
 
-<span style="color: blue">Can I improve the working code?</span>
-<span style="color: blue">Clean code, and test must pass</span>
+Green : 
+Write code to make test pass
+Code passes test
+
+Refactor :
+Can I improve the working code?
+Clean code, and test must pass
 
 Start again!
-```
 
 Written in PHP 8.1
 
